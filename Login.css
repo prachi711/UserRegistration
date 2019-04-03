@@ -1,50 +1,47 @@
 body
 {
     background-color: rgb(16, 129, 204);
-    background-image: url("bkg3.jpg");
-    background-repeat: no-repeat;
     padding: 0px;
     margin: 0px;
+    background-image: url("bkgLogin3.jpg");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /*background-size: cover;*/
 }
 
 
 .container
 {
-    background-color: rgb(200, 201, 219);
-    width: 565px;
-    height: 570px;
+   
+    width: 600px;
+    height: 250px;
    /** border-bottom: 1px solid rgb(136, 28, 28);**/
     
     margin: 0 auto;
-    margin-top: 50px; /**distance from top**/
+    text-align: center;
+    margin-top: 300px; /**distance from top**/
   /**  margin-left: 40px;
     margin-right: 60px;
     margin-bottom: 70px;**/
+    
+    
+      
+      }
 
 }
 
 .paragraph
 {
-  background: rgb(16, 73, 180)f;
-  color: rgb(1, 5, 8);
+  background: #f1c40f;
+  color: aliceblue;
   font-family: cursive;
   text-align: center;
   padding: 20px;
 }
-.name
-{
-  width: 200px;
-  height: 29px;
-  padding: 2px;
-  margin-left: 20px;
-  padding-left: 5px; /**padding of written text**/
-  margin-top: 9px; /**distance between 2 boxes**/
-}
 .userDetails
 {
-   width: 435px;
+   width: 200px;
    height: 29px;
    padding: 2px;
    margin-left: 20px;
@@ -52,21 +49,8 @@ body
    margin-top: 9px; /**distance between 2 boxes**/
    
 }
-.gender
-{
-  height: 40px;
-  width: 445px;
-  margin-left: 20px;
-  margin-top: 7px;
-  
-}
-
-label
-{
-  margin-left: 20px;
 
 
-}
 
 .center
 {
@@ -82,11 +66,24 @@ button
   width: 160px;
   height: 40px;
 }
-.userType
-{
-  height: 40px;
-  width: 445px;
-  margin-left: 20px;
-  margin-top: 7px;
-  
+
+
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(15, 15, 15, 0.986);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(211, 17, 17);
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
