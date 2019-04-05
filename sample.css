@@ -14,8 +14,8 @@ body
 .login-box
 {
   
-    width: 320px;
-    height: 420px;
+    width: 400px;
+    height: 500px;
    /** border-bottom: 1px solid rgb(136, 28, 28);**/
    background: rgba(0,0,0,0.5);
   color: #fff;
@@ -42,7 +42,7 @@ body
   margin-bottom: 20px;
 }
 
-.login-box input[type="email"], input[type="password"]
+.login-box input[type="email"], input[type="password"],input[type="text"],input[type="number"]
 {
   border:none;
   border-bottom: 1px solid #fff;
@@ -52,6 +52,8 @@ body
   color:#fff;
   font-size: 16px;
 }
+
+
 
 .login-box input[type="submit"]
 {

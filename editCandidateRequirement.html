@@ -1,10 +1,52 @@
 <html>
     <head>
-        <title>
-
-        </title>
+        <title>Edit Candidate Requirement</title>
+        <link rel="stylesheet" a href="editCandidateRequirement.css"/>
     </head>
     <body>
-         Edit Candidate Requirement
+        <div class="container">
+        <input type="number" name="requirementId" placeholder="Requirement Id" class="requirement" required>
+        <button type="submit">Search</button>
+<br><br>
+<table border="1" >
+<tr>
+<td> <center> <span style="color:black">Employee Id</span>
+</td>
+<td> <center> <span style="color:black">Domain</span>
+</td>
+<td> <center> <span style="color:black">Required Vacancies</span>
+</td>
+<td> <center> <span style="color:black">Closing Date</span>
+</td>
+<td> <center> <span style="color:black">Priority</span>
+</td>
+<td> <center> <span style="color:black">Minimum Experience</span>
+</td>
+</tr></div>
+<!--<c:forEach var="vehicle"  items="${vehicle}">
+<tr>
+<td> <center> <span style="color:black">${vehicle.vehicleNumber}</span>
+</td>
+<td> <center> <span style="color:black">${vehicle.branch}</span>
+</td>
+<td> <center> <span style="color:black">${vehicle.insuranceExpiry}</span>
+</td>
+<td> <center> <span style="color:black">${vehicle.lastService}</span>
+</td>
+<td> <center> <span style="color:black">${vehicle.serviceDue}</span>
+</td>
+<td> <center> <span style="color:black">${vehicle.vehicleType}</span>
+</td>
+</td>
+<%-- <c:set property="${vehicle.vehicleNumber}" var="vehNumber" ></c:set> --%>
+<%-- <fmt:parseNumber var="vehNumber" value="${vehicle.vehicleNumber}" integerOnly="true"/>
+<fmt:parseNumber var="vehNumber" integerOnly="true" type="number" value="${vehicle.vehicleNumber}" /> --%> 
+<td> <center> <span style="color:black"><a href="updateVehicle.html?id=${vehicle.vehicleNumber}">Update</a></span>
+</td>
+</tr>
+</c:forEach>
+
+-->
+</table>
     </body>
 </html>

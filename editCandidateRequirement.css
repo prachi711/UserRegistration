@@ -1,0 +1,17 @@
+.container
+{
+    margin: 0 auto;
+    margin-top:50px;
+    margin-left:50px;
+
+}
+td{
+    padding:0 30px 0 30px;
+    /**background-color: #b3ffd9;**/
+
+}
+body
+{
+   /** background-color: #ffccff;**/
+   background-image: url("loginbkg2.jpg");
+}

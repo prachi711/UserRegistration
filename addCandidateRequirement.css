@@ -16,9 +16,7 @@ body
     width: 565px;
     height: 570px;
    /** border-bottom: 1px solid rgb(136, 28, 28);**/
-   
     
-
     margin: 0 auto;
     margin-top: 50px; /**distance from top**/
   /**  margin-left: 40px;
@@ -26,12 +24,10 @@ body
     margin-bottom: 70px;**/
 
 }
-.container form {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.3;
-  filter: alpha(opacity=30); /* For IE8 and earlier */
+
+.qualification
+{
+    
 }
 
 .paragraph
@@ -51,7 +47,7 @@ body
   padding-left: 5px; /**padding of written text**/
   margin-top: 9px; /**distance between 2 boxes**/
 }
-.userDetails
+.requirement
 {
    width: 435px;
    height: 29px;
@@ -61,14 +57,7 @@ body
    margin-top: 9px; /**distance between 2 boxes**/
    
 }
-.gender
-{
-  height: 40px;
-  width: 445px;
-  margin-left: 20px;
-  margin-top: 7px;
-  
-}
+
 
 label
 {
@@ -90,12 +79,4 @@ button
   padding: 10px;
   width: 160px;
   height: 40px;
-}
-.userType
-{
-  height: 40px;
-  width: 445px;
-  margin-left: 20px;
-  margin-top: 7px;
-  
 }

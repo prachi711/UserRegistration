@@ -1,10 +1,43 @@
 <html>
     <head>
-        <title>
-
-        </title>
+        <title>Add Candidate Requirement</title>
+        <link rel="stylesheet" a href="addCandidateRequirement.css"/>
     </head>
     <body>
-        This is Candidate Requirement page
+        <!--employee id
+        domain
+        required vac
+        quali
+        closing
+        prority
+        min exper
+        submit-->
+        <div class="container">
+            <form>
+                <p class="paragraph">
+                   <b><u>ADD CANDIDATE REQUIREMENT</u></b>
+                </p>
+                <input type="number" name="employeeId" placeholder="Employee Id" class="requirement" required>
+                <input type="text" name="domain" placeholder="Domain" class="requirement" required><br>
+                <input type="number" name="requiredVacancies" placeholder="Required Vacancies" class="requirement" required><br>
+               <select class="requirement" required>
+                   <option>QUALIFICATION</option>
+                   <option>1</option>
+                   <option>2</option>
+                   <option>3</option>
+               </select><br>
+                
+                <input type="date" name="closingDate" placeholder="Closing Date" class=" requirement" required><br>
+                <input type="number" name="priority" placeholder="Priority" class="requirement" required><br>
+                <input type="number" name="minimumExperience" placeholder="Minimum Experience" class="requirement" required><br>
+                
+               <div class="center"> 
+                   <button type="submit">REGISTER</button>
+               </div>
+           </form>
+
+        </div>    
+
+
     </body>
 </html>
