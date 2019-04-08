@@ -3,7 +3,7 @@ body
     background-color: rgb(83, 172, 231);
     padding: 0px;
     margin: 0px;
-    background-image: url("loginbkg2.jpg");
+    background-image: url("loginbkg5.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,7 +17,7 @@ body
     width: 320px;
     height: 420px;
    /** border-bottom: 1px solid rgb(136, 28, 28);**/
-   background: rgba(0,0,0,0.5);
+   background: rgba(0,0,0,0.95);
   color: #fff;
   top:50%;
   left:50%;
@@ -143,6 +143,11 @@ ul {
   overflow: hidden;
   background-color: #333;
   text-decoration-color: #fff;
+  background: rgba(0,0,0,0.6);
+}
+.contact
+{
+margin-left: 1000px;
 }
 
 li {
@@ -161,4 +166,27 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+button{
+  
+    border-radius: 25px;
+    background: rgb(61, 20, 212);
+    padding: 20px; 
+    width: 150px;
+    height: 20px;
+    text-align: center;
+
+  }
+
+  .signup
+  {
+     text-align: center;
+     margin-top: 12px;
+  }
+  .signup2
+  {
+    text-align: center;
+    margin-top: 90px;
+
+  }
 
